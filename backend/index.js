@@ -47,6 +47,6 @@ app.get("/getAllPostsWithComments", (req, res) => {
   res.status(200).json(postData);
 });
 
-app.listen(3000, () => {
+app.listen(3100, () => {
   console.log("Listining on port 3000");
 });
